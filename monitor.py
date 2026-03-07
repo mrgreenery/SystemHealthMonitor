@@ -1,5 +1,5 @@
 import time
-
+from config import REFRESH_INTERVAL_SECONDS
 import collector
 import display
 import evaluator
@@ -31,7 +31,7 @@ class Monitor:
                     metric_display.render("Network Out", metrics["network_out_mb_s"], " MB/s")
 
                     metric_display.show()
-                    time.sleep(1)
+                    time.sleep(REFRESH_INTERVAL_SECONDS)
 
             except KeyboardInterrupt:
                 pass
