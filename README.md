@@ -31,7 +31,7 @@ health-monitor/
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/health-monitor.git
+git clone https://github.com/mrgreenery/SystemHealthMonitor
 cd SystemHealthMonitor
 pip install -r requirements.txt
 ```
